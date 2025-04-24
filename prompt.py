@@ -3,6 +3,7 @@ import pandas as pd
 import io
 from tqdm import tqdm
 import google.generativeai as genai
+import os
 
 # Gemini API key
 try:
